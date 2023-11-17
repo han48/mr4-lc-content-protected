@@ -1,0 +1,7 @@
+.mr4-lc-content-protected {
+    -webkit-user-select: none !important; /* Safari and Chrome */
+    -khtml-user-select: none !important; /* Konqueror */
+    -moz-user-select: none !important; /* Firefox */
+    -o-user-select: none !important; /* Opera */
+    user-select: none !important; /* Standard syntax */
+}
