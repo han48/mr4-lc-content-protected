@@ -45,6 +45,8 @@ Example usage
 </form>
 ```
 
+Basic usage
+
 ```blade
 <x-mr4-lc.content-protected id="1" />
 ```
@@ -56,6 +58,8 @@ Example usage
 </div>
 ```
 
+Mode open
+
 ```blade
 <x-mr4-lc.content-protected id="2" mode="open"/>
 ```
@@ -66,6 +70,8 @@ Example usage
     <span>This is protected content <u>2</u></span>
 </div>
 ```
+
+Customize CSS
 
 ```blade
 <x-mr4-lc.content-protected id="3" className="customize" />
