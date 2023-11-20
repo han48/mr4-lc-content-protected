@@ -41,7 +41,7 @@ Example usage
 <form action="{{ route('content-protected.get') }}" method="GET" onsubmit="return false;">
     <x-mr4-lc.content-protected id="1" />
     <x-mr4-lc.content-protected id="2" mode="open"/>
-    <x-mr4-lc.content-protected id="3" className="customize" />
+    <x-mr4-lc.content-protected id="3" className="customize" adoptedStyleSheets="span { color: red; border: 2px dotted black;}" />
 </form>
 ```
 
